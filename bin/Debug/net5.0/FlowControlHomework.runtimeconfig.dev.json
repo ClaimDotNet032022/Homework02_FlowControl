@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\sevie\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\sevie\\.nuget\\packages"
+    ]
+  }
+}
