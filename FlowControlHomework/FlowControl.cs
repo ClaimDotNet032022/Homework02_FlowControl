@@ -417,16 +417,17 @@ namespace FlowControlHomework
             // Fix this loop so the passed = true line executes at least once AND the test doesn't go on forever.
             passed = false;
             int count = 1;
-            while (count < 10)
+            do
             {
-                count++;
-                if (count == 5)
+                if (count > 0)
                 {
+                    Console.WriteLine(true);
                     passed = true;
-                    break;
                 }
-            }
+
+            } while (count < 10);
             Assert.IsTrue(passed);
+            
         }
     }
 }
