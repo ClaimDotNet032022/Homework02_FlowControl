@@ -371,10 +371,10 @@ namespace FlowControlHomework
                 if (i == 15) passed = true;
             }
             Assert.IsTrue(passed);
-            
-            
-            
-           int max2 = 17;
+
+
+
+            int max2 = 17;
             // You need to do something special to get to the line that sets passed = true.
             // Some restrictions:
             // Don't change anything with the passed variable.
@@ -383,7 +383,7 @@ namespace FlowControlHomework
             // hint: you don't always need to increment by 1.
             // This one is tough, take your time.
             passed = false;
-            for (int i = 0; i <= max2; i = i + 2)   // Change this line (but not the 'int i = 0' part)
+            for (int i = 0; i <= max2; i += 2)   // Change this line (but not the 'int i = 0' part)
             {
                 bool isOdd = !((i % 2) == 0); // notice how the variable name explains the expression? 
                 if (isOdd)
@@ -398,7 +398,7 @@ namespace FlowControlHomework
             Assert.IsTrue(passed);  // Don't change this line.
 
             // break out of the loop after the test passes at least once, there are a couple ways do to this
-            int counter = 9;  // Change me to get in.
+            int counter = 2;  // Change me to get in.
             int passedCounter = 0;  // Don't change me.
             while (counter > 1 && counter < 10)
             {
@@ -406,28 +406,31 @@ namespace FlowControlHomework
                 Console.WriteLine(true);
                 Assert.IsTrue(true);
                 Console.WriteLine("IM STUCK IN HERE");
-                if (counter == 10)
+                if (counter == 2)
                 {
                     break;
                 }
             }
-            Assert.IsTrue(passedCounter <= 1);  // Don't change this line.
-            
+            Assert.IsTrue(passedCounter >= 1);  // Don't change this line.
+            Assert.IsTrue(passedCounter <= 1); // Dont' change this line.
             
             // Fix this loop so the passed = true line executes at least once AND the test doesn't go on forever.
             passed = false;
-            int count = 1;
+            int count = 0;
             do
             {
-                if (count > 0)
+                if (count < 10)
                 {
-                    Console.WriteLine(true);
+                    ++count;
+                    Console.WriteLine(count);
                     passed = true;
                 }
-
-            } while (count < 10);
-            Assert.IsTrue(passed);
-            
+                else if (count >= 10)
+                {
+                    Assert.IsTrue(passed);
+                    break;
+                }                                  
+            }while (count <= 10);
         }
     }
 }
