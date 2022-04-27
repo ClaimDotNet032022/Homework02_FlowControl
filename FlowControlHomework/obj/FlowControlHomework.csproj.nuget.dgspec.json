@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gavin\\Source\\Repos\\Homework02_FlowControl\\FlowControlHomework\\FlowControlHomework.csproj": {}
+    "C:\\Users\\Gavin\\source\\repos\\Homework02_FlowControl\\FlowControlHomework\\FlowControlHomework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gavin\\Source\\Repos\\Homework02_FlowControl\\FlowControlHomework\\FlowControlHomework.csproj": {
+    "C:\\Users\\Gavin\\source\\repos\\Homework02_FlowControl\\FlowControlHomework\\FlowControlHomework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gavin\\Source\\Repos\\Homework02_FlowControl\\FlowControlHomework\\FlowControlHomework.csproj",
+        "projectUniqueName": "C:\\Users\\Gavin\\source\\repos\\Homework02_FlowControl\\FlowControlHomework\\FlowControlHomework.csproj",
         "projectName": "FlowControlHomework",
-        "projectPath": "C:\\Users\\Gavin\\Source\\Repos\\Homework02_FlowControl\\FlowControlHomework\\FlowControlHomework.csproj",
+        "projectPath": "C:\\Users\\Gavin\\source\\repos\\Homework02_FlowControl\\FlowControlHomework\\FlowControlHomework.csproj",
         "packagesPath": "C:\\Users\\Gavin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gavin\\Source\\Repos\\Homework02_FlowControl\\FlowControlHomework\\obj\\",
+        "outputPath": "C:\\Users\\Gavin\\source\\repos\\Homework02_FlowControl\\FlowControlHomework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
